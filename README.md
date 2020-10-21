@@ -1,6 +1,8 @@
 <!-- @format -->
 
-# Webpack
+# Webpack \$ Babel
+
+[![N|Solid](https://webpack.js.org/d3dae4189855b3a72ff9.png)](https://webpack.js.org/)
 
 Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging ...
 
@@ -8,26 +10,33 @@ Webpack is a module bundler. Its main purpose is to bundle JavaScript files for 
 
 Use the package manager [npm](https://www.npmjs.com/) to install package.
 
+```sh
+$ npm install
+```
+
+## Run web
+
+For development
+
 ```bash
-npm install
+$ npm run server
+```
+
+For production
+
+```bash
+$ npm run build
 ```
 
 ## Usage
 
+package.json
+
 ```javascript
-//
 "scripts": {
     "build": "node_modules/.bin/webpack --mode production",
     "serve": "webpack-dev-server --mode development"
   },
-```
-
-```bash
-npm run server
-```
-
-```bash
-npm run build
 ```
 
 ```javascript
@@ -49,6 +58,6 @@ devServer: {
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Chear!!! Chinh :kissing_smiling_eyes: Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
