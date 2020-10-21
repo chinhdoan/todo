@@ -2,7 +2,7 @@
 
 # Webpack & Babel
 
-[![N|Solid](https://cdn.auth0.com/blog/webpack/logo.png)](https://webpack.js.org/)
+[![N|Solid](https://media02.hongkiat.com/webpack-introduction/01-webpack-bundler.jpg)](https://webpack.js.org/)
 
 Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging ...
 
