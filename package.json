@@ -1,11 +1,11 @@
 {
-  "name": "chapter_19",
+  "name": "chinh-todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is for Eagle.Team",
   "main": "index.js",
   "scripts": {
     "build": "node_modules/.bin/webpack --mode production",
-    "serve": "webpack-dev-server --mode development"
+    "server": "webpack-dev-server --mode development"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,6 @@
     "babel-loader": "^8.0.5",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-dev-server": "^3.11.0"
   }
 }

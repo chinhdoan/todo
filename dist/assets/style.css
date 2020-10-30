@@ -1,0 +1,21 @@
+.center{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-self:center;
+}
+.search-form{
+  position:relative;
+}
+
+.fa-search{
+  position:absolute;
+  right:0;
+  margin-right:20px;
+}
+
+li.list-group-item{
+  display:flex;
+  justify-content:space-between;
+}
